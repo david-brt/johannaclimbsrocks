@@ -46,4 +46,5 @@ body {
   max-width: 80%;
   border-radius: 8px;
   color: white;
+  cursor: pointer;
 }

@@ -2,18 +2,19 @@ const titles = [
   "Klettern? 👉🥺👈",
   "5h sind Warmup",
   "Haut ist überbewertet 💅🩸",
-  "Boulderhallelele",
+  "Boulderhallelele 🗣️",
   "Was sind Hobbies 🏃"
 ]
 
 const headings = [
-  "Bitte!",
-  "Ach komm!",
-  "Bitte bitte bitte bitte bitte bitte!",
-  "Mach deine Eltern stolz!",
-  "Ich weiß dass du willst!",
-  "Ich geb dir auch Mensa aus.",
-  "Schade, vielleicht klappt es ja beim nächsten Mal!"
+  "Bitte 🤲",
+  "Bitte bitte bitte 🙏",
+  "Ich weiß dass du willst 🙌",
+  "Für den Strandkörper 💪",
+  "Mach deine Eltern stolz ✊",
+  "Ich geb dir auch Mensa aus 🍽️",
+  "Und ich dachte wir wären Freunde 🥲",
+  "Schade, vielleicht klappt es ja beim nächsten Mal 😓"
 ]
 
 function padHorizontal(el, padding) {

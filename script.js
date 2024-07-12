@@ -31,7 +31,7 @@ const titleTag = document.getElementsByTagName("title")[0]
 const random = Math.floor(Math.random() * titles.length)
 titleTag.innerHTML = titles[random]
 
-let paddingHorizontal = 5;
+let paddingHorizontal = 15;
 let paddingVertical = 2
 let i = 0
 
@@ -39,6 +39,7 @@ window.onload = () => {
   const h1Tag = document.getElementsByTagName("h1")[0]
   const yesButton = document.getElementById("yes")
   const noButton = document.getElementById("no")
+  const buttons = document.getElementById("buttons")
 
   noButton.addEventListener("click", () => {
     h1Tag.innerHTML = headings[i]
@@ -47,16 +48,15 @@ window.onload = () => {
       noButton.remove()
       return
     }
-    paddingHorizontal *= 1.5
+    paddingHorizontal += 5
     paddingVertical *= 1.2
-    padHorizontal(yesButton, paddingHorizontal + "em")
+    padHorizontal(yesButton, paddingHorizontal + "%")
     padVertical(yesButton, paddingVertical + "em")
     i++
   })
 
   yesButton.addEventListener("click", () => {
-    yesButton.remove()
-    noButton.remove()
+    buttons.remove()
     const pedro = document.getElementById("pedro")
     pedro.style.display = "block"
     h1Tag.innerHTML = "So und nicht anders."

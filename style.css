@@ -1,6 +1,7 @@
 html,
 body {
   margin: 0;
+  text-align: center;
 }
 
 .container {
@@ -14,23 +15,12 @@ body {
   flex-direction: column;
 }
 
-.buttons {
+#buttons {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5vh 5vw;
-}
-
-.buttons button {
-  box-sizing: border-box;
-  max-width: 100%;
-  display: block;
-  padding: 2em 5em;
-  max-width: 80%;
-  border-radius: 8px;
-  border: none;
-  color: white;
+  gap: 1em;
 }
 
 #pedro {
@@ -45,4 +35,15 @@ body {
 
 #no {
   background-color: red;
+}
+
+#yes,
+#no {
+  padding: 2em 15%;
+  display: block;
+  border: none;
+  max-width: 100%;
+  max-width: 80%;
+  border-radius: 8px;
+  color: white;
 }
